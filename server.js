@@ -59,7 +59,6 @@ app.get('/projects', (req, res) => {
   });
 });
 
-
 app.get('/bad', (req, res) => {
   res.send({
     errorMessage: 'Bad Request'
